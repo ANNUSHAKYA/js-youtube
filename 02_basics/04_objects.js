@@ -53,3 +53,30 @@ console.log(Object.values(bumbleUser));
 console.log(Object.entries(bumbleUser));
 
 console.log(bumbleUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "annu"
+}
+
+// couse.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+//{
+//   "name": "annu",
+//    "coursename": "js in hindi",
+//    "price": "free"
+//}
+
+[
+    {},
+    {},
+    {},
+]
+
